@@ -104,3 +104,50 @@ else:
     print("sayılar arasında eşitlik var")
 
 
+if(85<=do<=100):
+    print("takdir belgesi aldınız")
+elif(70<=do<85):
+    print("teşekkür belgesi aldınız")
+else:
+    print("hiçbir belge alamadınız")
+
+
+
+
+a=float(input("metre cinsinden boyunuzu girin:"))
+b=float(input("kilogram cinsinden kilonuzu girin:"))
+
+f=b/a**2
+
+print(f)
+
+if(f<=18.4):
+    print("Çok zayıfsınız")
+elif(18.5<=f<=24.9):
+    print("sağlıksınız")
+elif(25<=f<=29.9):
+    print("şişmansınız")
+elif(30<=f<=40):
+    print("obezsiniz")
+else:
+    print("marbid obezsiniz")
+
+
+
+
+
+
+
+a=input("c mi f mi:")
+
+
+
+
+if(a=="c"):
+    b=float(input("celcius gir:"))
+    f1=(b-32)/1.8
+    print("{} celcius {}fahrenayta eşit".format(b,f1))
+elif(a=="f"):
+    b=float(input("fahrenayt gir:"))
+    f1=(b*1.8)+32
+    print("{} fahrenayt {}celcius eşit".format(b,f1))
